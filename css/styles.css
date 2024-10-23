@@ -25,6 +25,7 @@
 
 #title{
     background-color:#E5D8D8;
+    color: #563232;
 }
 
 #title h1{
@@ -35,7 +36,6 @@
 }
 
 main{
-    background-color: red;
     width: 100%;
     height:auto;
     display: flex;
@@ -44,21 +44,6 @@ main{
     margin: 0%;
     padding: 0%;
 }
-
-body{
-    background-color:blue
-}
-
-/* #image{
-    padding:0%;
-    margin: 0%;
-    background-color: yellow;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
 
 #main_image{
     object-fit:fill;
@@ -69,17 +54,20 @@ body{
 .footer_section{
     background-color: #C9C0C0;
     position: fixed;
+    align-items: center;
     bottom: 0%;
     width: 100%;
+    height: 3%;
 }
 
 .footer_section ul{
+    position: relative;
     display: flex;
     list-style-type: none;
     justify-content: space-between;
     align-items: center;
+    top: 25%;
     margin: 0% 5% 0% 5%;
-    ;
 }
 
 .footer_section ul li{
@@ -92,21 +80,56 @@ footer{
     padding:0%;
 }
 
-.new{ 
-    background-color: red;
+.cont_images{ 
     display: flex;
-
-    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
     position: fixed;
-    bottom: 5%;
-    /* height: 10%; */
-    width: 50%;
+    bottom: 0%;
+    width: 100%;
+    height: 26.3%;
     padding: 0%;
     margin: 0%;
 }
 
-#new_image{
-    /* width: 100%;
-    height: 5vh; */
-    object-fit:fill;
+.new_image{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+}
+
+.image_product{
+    display: flex;
+    justify-content: center;
+    margin:0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.image_product h3{
+    font-size: 30px;
+    position: absolute;
+    color: white; 
+    top: 50%;
+}
+
+.main_tittle{
+    background-color: green;
+    color: white;
+}
+
+.main_tittle h1{
+    position: absolute;
+    left: 30%;
+    top: 48vh;
+    font-size: 5vh;
+    width: 60%;
+}
+.main_tittle h2{
+    position: absolute;
+    left: 25%;
+    top: 58vh;
+    width: 60%;
+    font-size: 4vh;
 }
